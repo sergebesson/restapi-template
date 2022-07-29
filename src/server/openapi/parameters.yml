@@ -1,0 +1,25 @@
+page:
+  name: page
+  in: query
+  description: page demandée
+  schema:
+    type: integer
+    format: int32
+    minimum: 1
+    default: 1
+page_size:
+  name: page_size
+  in: query
+  description: nombre d'élément par page
+  schema:
+    type: integer
+    format: int32
+    minimum: 1
+    default: 20
+search:
+  name: search
+  in: query
+  description: valeur de recherche
+  allowReserved: true
+  schema:
+    type: string

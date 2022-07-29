@@ -1,0 +1,12 @@
+page:
+  description: page reçue
+  type: integer
+  format: int32
+page_size:
+  description: nombre d'élément par page
+  type: integer
+  format: int32
+total_pages:
+  description: Nombre de page total
+  type: integer
+  format: int32

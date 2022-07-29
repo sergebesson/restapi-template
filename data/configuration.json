@@ -1,0 +1,21 @@
+{
+	"storage": {
+		"databaseDirectory": "data"
+	},
+	"server": {
+		"port": 8081,
+		"host": "localhost",
+		"url_server": "sample-vuejs.famille-besson.com",
+		"ssl": {
+			"enable": false,
+			"certFile": "data/ssl/cert.crt",
+			"keyFile": "data/ssl/key.key"
+		}
+	},
+	"logs": {
+		"file": "data/sample-vuejs.log",
+		"max_size": 102400,
+		"max_files": 5,
+		"level": "debug"
+	}
+}
